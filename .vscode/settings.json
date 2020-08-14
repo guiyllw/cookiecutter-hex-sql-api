@@ -1,0 +1,10 @@
+{
+  "python.linting.enabled": false,
+  "files.exclude": {
+    "**/__init__": true,
+    "**/__init__.*": true,
+    "**/__pycache__": true,
+    "**/__pycache__.*": true
+  },
+  "python.pythonPath": "/usr/bin/python3"
+}

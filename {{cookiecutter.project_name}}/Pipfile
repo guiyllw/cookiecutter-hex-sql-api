@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+isort = "*"
+autopep8 = "*"
+flake8 = "*"
+pytest = "*"
+mutmut = "*"
+pytest-sugar = "*"
+pytest-pythonpath = "*"
+pytest-cov = "*"
+
+[packages]
+sqlalchemy = "*"
+pymysql = "*"
+stringcase = "*"
+fastapi = "*"
+uvicorn = "*"
+python-dotenv = "*"
+fastapi-utils = "*"
+
+[requires]
+python_version = "3.8"
